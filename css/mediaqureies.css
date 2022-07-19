@@ -1,0 +1,35 @@
+@media screen and ( max-width:1000px){
+    body{
+        background:grey;
+    }
+    .box{
+        background: gold;
+    }
+    H2{
+        background: linear-gradient(45deg, blue, red);
+    }
+    header{
+        background:linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%)
+    }
+}
+@media screen and ( max-width:450px){
+    body{
+        background: ivory;
+    }
+    .box{
+        background: linear-gradient(0deg, blue, green 40%, red);
+    }
+    H2{
+        background: linear-gradient(45deg, rgb(0, 255, 60) 0 50%, rgb(255, 0, 208) 50% 100%);
+    }
+    header{
+        background: linear-gradient(45deg, red, blue);
+    }
+    header{
+        height: 18vh;
+        
+    }
+    .nav_item{
+        font-size: 15px;
+    }
+}

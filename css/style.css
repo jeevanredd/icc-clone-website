@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%) ;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    background-color:darkblue;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static.toiimg.com/thumb/msid-85450736,imgsize-114582,width-400,resizemode-4/85450736.jpg);
+    background-repeat: no-repeat;
+    background-size: 70px 90px;
+    flex-wrap: wrap;
+}
+.iccnav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    /* visibility: hidden; */
+    /* overflow: hidden; */
+}
+
+ .nav_item{
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+     margin: 10px;
+ }
+
+.downa_arrow{
+    border: none;
+    background-color: darkblue;
+    position: relative;
+    top: 12px;
+    color: white;
+}
+
+form{
+    display: flex;
+}
+
+.searchbar{
+    border-radius: 20px;
+    border: 2px solid green;
+    
+}
+img{
+    background-color: white;
+    width: 30px;
+    color:red 50% ,royalblue 50% ;
+    border-radius:10px;
+    border: 2px solid green;
+
+}
+
+.box{
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    justify-content:space-between;
+    /* flex-direction:column; */
+    overflow:hidden;
+    margin: 25px 0 25px 0;
+    flex-wrap: wrap;
+}
+H2{
+    align-self: center;
+    margin: 0 50px 0 0;
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+table{
+    border: 2px solid rgb(red, green, blue);
+    border-collapse: collapse;
+    position: relative;
+    /* left: 200px; */
+    /* right: 400px; */
+}
+
+ th{
+     border: 1px solid black;
+     border-collapse: collapse;
+     background-color: cadetblue;
+ }
+
+ tr{
+     height: 50px;
+ }
+
+  td{
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 90px;
+      height: 40px;
+      background-color: cornflowerblue;
+      text-align: center;
+  }
+
+  caption{
+      /* background-/color: aquamarine; */
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+   footer{
+       width: 100%;
+       height: 12vh;
+       display: flex;
+       justify-content: center;
+   }
+
+  .icc_fr{
+    background-image: url(https://resources.pulse.icc-cricket.com/photo-resources/2021/10/03/79393780-f32e-4e41-9b5b-c5736613259c/1600x615.jpg?width=845&height=325);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:visible;
+  }
+
+iframe{
+    /* float: right; */
+    width: 400px;
+    height: 250px;
+    margin: 0 0 0 25px;
+}
